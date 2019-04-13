@@ -1,4 +1,38 @@
-.col {
-	background-color: grey;
-	border:2px solid black;
+body {
+	background-image: url(img5.jpg);
+	background-size: cover;
+	 background-repeat: no-repeat;
+	 font-family: 'BioRhyme', serif;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container {
+	position: absolute;
+	top: 55%;
+	left: 42%;
+
+}
+
+.btn {
+	font-weight: 700;
+	text-transform: uppercase;
+	border-radius: 300px;
+}
+.btn-xl{
+	padding: 1rem 2rem;
+}
+
+.btn-primary{
+	background-color: orange;
+	border-color: orange;
+}
+.btn-primary:hover {
+	background-color: orange;
+	border-color: pink;
 }
